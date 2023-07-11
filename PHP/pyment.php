@@ -1,5 +1,5 @@
 <?php
-class Pyment
+class Payment
 {
     public $id;
 }
