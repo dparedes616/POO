@@ -1,10 +1,14 @@
 class Car {
     Integer id;
     String license;
-    String driver;
+    Account driver;
     Integer passenger;
 
-    public void printDataCar() {
+    public Car(String license, Account driver ){
+        
+    }
+
+    void printDataCar() {
         System.out.println("License: "+ license + "Driver: " + driver); 
     }
 }
