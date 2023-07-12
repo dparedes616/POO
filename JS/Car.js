@@ -1,13 +1,15 @@
-function Car(license, driver){
-    this.id;
-    this.license=license;
-    this.driver=driver;
-    this.passenger;
+class Car {
+    constructor(license, driver) {
+        this.id;
+        this.license = license;
+        this.driver = driver;
+        this.passenger;
+    }
+    printDataCar(params) {
+        console.log(this.driver);
+        console.log(this.driver.name);
+        console.log(this.driver.document);
+
+    }
 }
 
-Car.prototype.printDataCar=function name(params) {
-    console.log(this.driver)
-    console.log(this.driver.name)
-    console.log(this.driver.document)
-    
-}
